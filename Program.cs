@@ -77,3 +77,51 @@
 // int[] myArray = CreatArray(6);
 // ShowArray(myArray);
 
+// ДОМАШНЕЕ ЗАДАНИЕ
+// 1. Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// double SquareNumbers(int x, int y)
+// {
+// return Math.Pow(x, y);
+// }
+// Console.WriteLine("Задайте последовательно два числа");
+// int A = Convert.ToInt32(Console.ReadLine());
+// int B = Convert.ToInt32(Console.ReadLine());
+
+// double res = SquareNumbers (x:A , y:B);
+// Console.WriteLine(A + " в степени " + B + " = " + res);
+// SquareNumbers(A, B);
+
+
+// 2. Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// Console.WriteLine("Задайте число: ");
+// int x = Convert.ToInt32(Console.ReadLine());
+// int count = 0;
+// void SumNumber (int num)
+// {
+//     while(num > 0){
+//         x=num%10;
+//         count=count+x;
+//         num=num/10;
+// }
+// Console.WriteLine("Сумма чисел равна " + count);
+// }
+// SumNumber (x);
+
+// 3. Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// int[] RandomArray(int size)
+// {
+//     int[] array = new int [size];
+//     for(int i = 0; i<size; i++){
+//         array[i] = new Random().Next(0,100);
+//     }
+//     return array;
+// }
+// void ShowArray(int[] array) 
+// {
+//     for(int i = 0; i<array.Length; i++)
+//     {
+//         Console.Write(array[i] + " / ");
+//     }
+// }
+// int [] myRandomArray = RandomArray(8);
+// ShowArray(myRandomArray);
